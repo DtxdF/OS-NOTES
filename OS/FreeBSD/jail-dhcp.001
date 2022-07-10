@@ -70,7 +70,7 @@ Se inicia:
 service jail start test_jail
 ```
 
-Pero al mismo tiempo en otra terminal se puede observar el log con *tail -f*:
+Pero al mismo tiempo en otra terminal se puede observar el log con `tail -f`:
 
 **/var/jails/log/test_jail.log**:
 
@@ -310,6 +310,8 @@ Es importante ejercitar nuestra memoria ya que los datos son imprescindibles par
 En este caso esos supuestos fueron el hecho de que la jaula tenía los mismos derechos a realizar lo mismo que el host, lo cual es incorrecto, como se pudo observar. Y el dato importante es colocar a devd como otro factor para configurar una interfaz.
 
 Una nota importante más: si se es observador, se puede notar que mencioné a netif en la conspiración, pero resulta que él, pese a ser el que ejecuta gran parte parte de las subrutinas de red, fue irrelevante porque es solo una parte abstracta del problema y es por eso que me enfoqué más en **/etc/network.subr**.
+
+Otra forma de solucionar el problema es usando `exec.start += "dhclient <if>";` en /etc/jail.conf en vez de SYNCDHCP en **/etc/rc.conf**, y funcionaría bien, pero el principal problema es que si no recibimos una respuesta, la jaula creada e iniciada, tendrá que ser eliminada por culpa de dhclient. Esto no puede ser deseable en ciertas situaciones, pero si estás usando DHCP para configurar una interfaz, hay que tomar ese riesgo.
 
 ## Referencias
 
