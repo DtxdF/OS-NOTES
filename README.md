@@ -12,7 +12,7 @@ No deseo volver complejo el proyecto, ya que es innecesario hacerlo complejo, pe
 
 ### Nombre de los sistemas operativos
 
-Las notas de los sistemas operativos se colocarán en [OS/](OS/), siguiendo una subcarpeta con el nombre del sistema operativo (p. ej.: OS/FreeBSD). Los nombres de los sistemas operativos deben ser alfanuméricos, minúsculas o mayúsculas, se permiten guiones y no deben contener espacios (**[a-zA-Z0-9]**). Los espacios deben sustituirse por guiones bajos (**_**). Es preferible el nombre de un sistema operativo como es llamado oficialmente, por ejemplo, *Arch Linux* es preferible a *arch linux*.
+Las notas de los sistemas operativos se colocarán en [OS/](OS/), siguiendo una subcarpeta con el nombre del sistema operativo (p. ej.: OS/FreeBSD). Los nombres de los sistemas operativos deben ser alfanuméricos, minúsculas o mayúsculas, se permiten guiones y no deben contener espacios (**[a-zA-Z0-9-]**). Los espacios deben sustituirse por guiones bajos (**_**). Es preferible el nombre de un sistema operativo como es llamado oficialmente, por ejemplo, *Arch Linux* es preferible a *arch linux*.
 
 Una lista de ejemplos de cómo debería ir cada nota de los sistemas operativos:
 
@@ -23,7 +23,7 @@ Una lista de ejemplos de cómo debería ir cada nota de los sistemas operativos:
 * OS/NetBSD
 * OS/Debian
 
-En el caso de que se quiera documentar un software que es válido por todos o la mayoría de sistemas operativos conocidos, se pueden usar un nombre especial **ALL** para describir esa pieza:
+En el caso de que se quiera documentar un software que es válido por todos o la mayoría de sistemas operativos conocidos, se puede usar un nombre especial **ALL** para describir esa pieza:
 
 * OS/ALL
 
@@ -38,7 +38,7 @@ El formato de las notas es muy simple: se usará solamente Markdown y todo lo qu
 
 ### Nombre de las notas
 
-El nombre de las notas sigue las mismas reglas que el del sistema operativo: los espacios no son válidos, por ejemplo, aunque esta regla es más relajada aquí, ya que en vez de usar guiones bajos, también es posible usar guiones como sustitutos de los espacios.
+El nombre de las notas sigue las mismas reglas que las del sistema operativo: los espacios no son válidos, por ejemplo, aunque esta regla es más relajada aquí, ya que en vez de usar guiones bajos, también es posible usar guiones como sustitutos de los espacios.
 
 Los nombres de las notas siguen la siguiente especificación: \<**name**\>.\<**id**\>, donde \<**name**\> es el nombre de la nota y debe seguir las reglas descritas anteriormente. El \<**id**\>, es un número que se aumenta progresivamente, de 001 a 999 por cada nota que se va agregando.
 
