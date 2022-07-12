@@ -6,6 +6,8 @@ Se es libre de documentar cualquier sistema operativo. Se es libre de colocar cu
 
 Las notas también pueden ser un buen punto de partida para luego aportar oficialmente a un proyecto (p.ej.: una traducción).
 
+Si solo se desea leer las notas, es posible comenzar desde [os-notes/](os-notes/index.md).
+
 ## Formato
 
 No deseo volver complejo el proyecto, ya que es innecesario hacerlo complejo, pero es requerido seguir cierto formato para controlar el caos.
