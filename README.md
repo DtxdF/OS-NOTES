@@ -101,4 +101,4 @@ Si deseas, puedes unirte a la comunidad de [Los Locos de FreeBSD](https://t.me/e
 ### Colaboradores
 
 * Jesús Daniel Colmenares Oviedo ([DtxdF](https://github.com/DtxdF))
-* Alonso Cárdenas ([jacardenasm](https://github.com/jacardenasm))
+* Alonso Cárdenas ([alonsobsd](https://github.com/alonsobsd))
