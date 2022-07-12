@@ -64,12 +64,12 @@ Una lista de ejemplos de cómo debería ir cada nota:
 * os-notes/freebsd/howto/security/jail-tutorial-001/index.md
 * os-notes/freebsd/howto/containers/pot-001/index.md
 * os-notes/freebsd/howto/containers/bastillebsd-002/index.md
-* os-notes/freebsd/howto/filesystem/zfs-001
+* os-notes/freebsd/howto/filesystem/zfs-001/index.md
 * os-notes/openbsd/howto/networking/ifstated-001/index.md
-* os-notes/arch_linux/howto/system//tricks-001
-* os-notes/linux/howto/containers/docker-001
-* os-notes/all/howto/networking/dhcpd-and-bind9-001
-* os-notes/all/howto/filesystem/zfs-001
+* os-notes/arch_linux/howto/system//tricks-001/index.md
+* os-notes/linux/howto/containers/docker-001/index.md
+* os-notes/all/howto/networking/dhcpd-and-bind9-001/index.md
+* os-notes/all/howto/filesystem/zfs-001/index.md
 
 ### Categorías y tipos de notas
 
