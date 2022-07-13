@@ -81,7 +81,9 @@ Los tipos de notas definen para qué contexto es el tipo de herramienta que se e
 * security: Relacionado con la seguridad;
 * containers: Relacionado con los contenedores;
 * filesystem: Relacionado con los sistemas de archivos;
-* system: Relacionado con utilidades del sistema o para la administración del sistema.
+* system: Relacionado con utilidades del sistema o para la administración del sistema;
+* virt: Relacionado con la virtualización;
+* misc: Todo lo que no entre en los tipos de notas anteriores, debe ingresar acá.
 
 #### Categorías
 
