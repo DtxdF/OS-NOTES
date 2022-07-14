@@ -96,7 +96,7 @@ No es requerida una escritura formal, es posible siguiendo un estilo personal de
 
 ### Cómo contribuir
 
-Si deseas contribuir, puedes enviar un *pull request* con una nota o corrección de una nota. También puedes enviarla a través de correo eléctronico usando hacia mi dirección [DtxdF-pm@pm.me](mailto:DtxdF-pm@me.pm)
+Si deseas contribuir, puedes enviar un *pull request* con una nota o corrección de una nota. También puedes enviarla a través de correo eléctronico usando hacia mi dirección [DtxdF-pm@pm.me](mailto:DtxdF-pm@pm.me)
 
 Si deseas, puedes unirte a la comunidad de [Los Locos de FreeBSD](https://t.me/ellocodebsd) en Telegram. Ahí también aceptaremos más notas.
 
