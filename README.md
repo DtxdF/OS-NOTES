@@ -1,6 +1,6 @@
 # Notas de sistemas operativos
 
-Este proyecto está enfoncado en preservar información, que generalmente no está presente en la documentación oficial, o, en algunos casos, no está detallada como para resolver un problema muy específico.
+Este proyecto está enfocado en preservar información, que generalmente no está presente en la documentación oficial, o, en algunos casos, no está detallada como para resolver un problema muy específico.
 
 Se es libre de documentar cualquier sistema operativo. Se es libre de colocar cualquier nota, pero es preferible crear una que no esté oficialmente documentada o de escasos detalles, ya que sería hacer doble-trabajo.
 
