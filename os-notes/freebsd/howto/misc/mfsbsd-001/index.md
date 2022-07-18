@@ -1,7 +1,9 @@
 mfsBSD es un conjunto de scripts que generan una imagen booteable, un archivo ISO o simplemente archivos de booteo, con la finalidad de crear una instalación mínima y personalizada de FreeBSD la cual es ejecutada completamente en memoria.
 
-![](https://i.imgur.com/llQKg5g.png)
-
+<p align="center">
+	<img src="https://i.imgur.com/llQKg5g.png">
+</p>
+	
 mfsBSD es una excelente alternativa a la imagen de FreeBSD completa, no solo por el poco espacio en almacenamiento, no solo porque se ejecuta en la memoria, sino por su alta personalización. mfsBSD nos permite personalizar una imagen sin necesidad de compilarla, aunque también permite hacerlo por si alguien lo desea. Mayormente cuando vemos proyectos de código abierto/software libre derivados tenemos dos problemas frecuentes: o no está actualizado con la rama principal del proyecto, o su principal fuente de atracción se reduce a una perdida de funcionalidad y herramientas imperdonables.
 
 mfsBSD no es así. Si deseas crear una imagen con ciertos paquetes pre-compilados, mfsBSD puede hacerlo por ti. Si deseas hacer un despliegue de múltiples servidores, pero eres tan perezoso que no deseas ejecutar [bsdinstall(8)](https://www.freebsd.org/cgi/man.cgi?query=bsdinstall&apropos=0&sektion=0&manpath=FreeBSD+13.1-RELEASE+and+Ports&arch=default&format=html), mfsBSD puede hacerlo por ti. Si deseas tener los archivos base como kernel.txz o base.txz en un servidor web o FTP dentro de tu misma red local para ahorrar ancho de banda descargándolo desde la página web oficial, mfsBSD puede hacerlo por ti. Si deseas tener un sistema que solo correrá en memoria con herramientas de diagnostico y reparación, mfsBSD puede hacerlo por ti.
@@ -35,13 +37,17 @@ Esta opción es más sencilla, y como se mencionó, la más ideal para fines de 
 
 Al ingresar en la web oficial tenemos varios opciones que se explican por sí solas.
 
-![](https://i.imgur.com/2mi1EaV.png)
+<p align="center">
+	<img src="https://i.imgur.com/2mi1EaV.png">
+</p>
 
 Los archivos .ISO son ideales para llevarlos con un CD/DVD o un dispositivo capaz de leerlo e interpretarlo para correrlo en el host que vayamos a usar mfsBSD. Por otro lado, si vamos a grabar mfsBSD en un USB, necesitamos una imagen del disco duro en bruto, que son los .IMG.
 
 Los .IMG se encuentran en la siguiente ubicación: **https://mfsbsd.vx.sk/files/images/13/amd64**
 
-![](https://i.imgur.com/cp8jIWu.png)
+<p align="center">
+	<img src="https://i.imgur.com/cp8jIWu.png">
+</p>
 
 Se puede observar que cada archivo tiene un sufijo, que es básicamente la edición de mfsBSD. La edición sin un sufijo, es mfsBSD sin nada especial más que un par de programas que todas las ediciones tienen, lo cuales son: **cpdup**, **dmidecode**, **ipmitool**, **nano**, **rsync**, **smartmontools**, **tmux**; varios módulos, que serían los siguientes: **acpi** (pre-cargado), **ahci** (pre-cargado), **aesni**, **crypto**, **cryptodev**, **ext2fs**, **geom_eli**, **geom_mirror**, **geom_nopi**, **ipmi**, **ntfs**, **nullfs**, **opensolaris**, **smbusi**, **snp**, **tmpfs**, **zfs**; y por último también tiene ajustado, al igual que todas las ediciones, *autodhcp*, que permite configurar DHCP en cualquier interfaz excepto la interfaz loopback. La diferencia se nota es cuando analizamos la edición -mini y -SE. La edición -mini es la que menos almacenamiento ocupa y como cualidad única, usa dropbear para implementar un servidor SSH. La versión -SE, o *Special Edition*, es como la edición normal pero incluye los archivo base.txz y kernel.txz, requeridos para instalar FreeBSD.
 
