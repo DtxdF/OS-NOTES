@@ -37,7 +37,7 @@ cd ~/.local/opt/Hirana-Client
 ```
 
 <p align="center">
-    <img src="https://imgur.com/T75TuS5.png />
+    <img src="https://imgur.com/T75TuS5.png" />
 </p>
 
 *Esto no será tan fácil como se esperaba...*
