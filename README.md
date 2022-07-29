@@ -1,3 +1,10 @@
+# Índice de los sistemas operativos
+
+## BSD
+
+* [freebsd/](os-notes/freebsd/index.md)
+* [all/](os-notes/all/index.md)
+
 # Notas de sistemas operativos
 
 Este proyecto está enfocado en preservar información, que generalmente no está presente en la documentación oficial, o, en algunos casos, no está detallada como para resolver un problema muy específico.
@@ -5,8 +12,6 @@ Este proyecto está enfocado en preservar información, que generalmente no est�
 Se es libre de documentar cualquier sistema operativo. Se es libre de colocar cualquier nota, pero es preferible crear una que no esté oficialmente documentada o de escasos detalles, ya que sería hacer doble-trabajo.
 
 Las notas también pueden ser un buen punto de partida para luego aportar oficialmente a un proyecto (p.ej.: una traducción).
-
-Si solo se desea leer las notas, es posible comenzar desde [os-notes/](os-notes/index.md).
 
 ## Formato
 
