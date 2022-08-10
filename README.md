@@ -3,6 +3,9 @@
 ## BSD
 
 * [freebsd/](os-notes/freebsd/index.md)
+
+## Otros
+
 * [all/](os-notes/all/index.md)
 
 # Notas de sistemas operativos
